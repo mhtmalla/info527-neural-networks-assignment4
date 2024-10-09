@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+~/venvs/
+ENV/
+
+# System or editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Colab and notebook metadata
+*.json
+*.bak
+
+
+# Data and large dataset files
+data/
+*.csv
+*.xlsx
+*.zip
+*.hdf5
+*.txt
+
+# Pytest cache and test outputs
+.pytest_cache/
+.cache/
+
+
+# TensorFlow model outputs and checkpoints
+*.h5
+*.ckpt
+checkpoints/
+saved_models/
